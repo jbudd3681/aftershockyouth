@@ -1,0 +1,131 @@
+.brand {
+	font-family: 'BIRTH OF A HERO';
+	font-size:20px;
+	font-style: normal;
+	font-weight: normal;
+	src: local('BIRTH OF A HERO'), url('../fonts/BIRTH_OF_A_HERO.woff') format('woff');
+}
+.profile-img{
+	max-width: 45px;
+}
+.uerror {
+	background-color:rgba(255,0,0,.2);
+}
+.usuccess {
+	background-color:rgba(0,255,0,.2);
+}
+.profile img {
+	max-width:45px;
+}
+
+.pendinguser{
+	width:80%;
+	min-width: 612px;
+}
+
+body{
+	margin-top:60px;
+	/*background-color: #110047;*/
+}
+
+.centerpage {
+	background-color:#fff;
+}
+
+.navbar-custom {
+	/*background-color: #110047;*/
+}
+
+.site-footer{
+	text-align: center;
+	margin-top:15px;
+}
+.site-footer p {
+	color:#777;
+}
+
+.social-icon {
+	width:24px;
+}
+
+
+.verse {
+	font-style: italic;
+	color:blue;
+}
+
+.item img {
+	max-height: 500px;
+}
+
+.carousel {
+	max-width: 800px;
+	max-height: 500px;
+}
+
+.margintop10 {
+	margin-top:10px;
+}
+
+.margintop20 {
+	margin-top:20px;
+}
+
+.media img {
+	max-width:200px;
+}
+
+.login {
+	margin:15px;
+}
+
+.register {
+	margin-left: 20px;
+}
+
+.admin {
+	width:150px;
+	margin-bottom:5px;
+}
+
+.marginright10 {
+	margin-right:10px;
+}
+.width90per {
+	width:90%;
+}
+
+.link {
+	font-family: "Verdana" sans-serif;
+	font-size: 10px;
+	text-align: left;
+	color: blue;
+	background: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+.link:hover {
+	color:grey;
+}
+
+.unread {
+	font-weight: 800;
+}
+
+.read {
+	font-weight: 100;
+	color: #lightgrey;
+	font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .adminButtons ul li {
+    display: inline-block;
+  }
+  .adminButtons ul li:nth-child(2n):after {
+    content = '<br>';
+  }
+}
