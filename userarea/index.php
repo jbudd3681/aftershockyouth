@@ -98,18 +98,18 @@ include(ROOT_PATH . "assets/db/db_config.php");
 					<img src='<?php echo BASE_URL.$img;?>' class='img-responsive profile-img' alt='user-image'>
 				</div>
 				<div class="col-sm-10 pull-left">
-					<form action='../assets/db/newpost.php' method='post' id='newpost' class="form-horizontal">
-						<input type='text'class='form-control' placeholder='Enter New Post' name='newpost'>
+					<form action="../assets/db/newpost.php" method="post" id="newpost" class="form-horizontal">
+						<input type="text" class="form-control" placeholder="Enter New Post" name="newpost">
 				</div>
 				<div class="col-sm-1 pull-left">
-						<input type='hidden' name='name' value='<?php echo $_SESSION["currentUser"];?>'>
-						<input type='hidden' name='img' value='<?php echo $img;?>'>
-						<input type='submit' name='newpost' value='Send' class='btn btn-info newpostbtn' >
+						<input type="hidden" name="name" value="<?php echo $_SESSION['currentUser'];?>">
+						<input type="hidden" name="img" value="<?php echo $img;?>">
+						<input type="submit" name="newpost" value="Send" class="btn btn-info newpostbtn" >
 					</form>
 				</div>
 			</div>
 			<div id="user-form" class="col-sm-8 col-sm-offset-1 margintop10"> 
-			<IFRAME src="wall.php" title="AfterShock Wall" width="100%" height="100%" frameborder="0" id="myFrame">
+			<IFRAME src="wall.php" title="AfterShock Wall" width="600px" height="100%" frameborder="0" id="myFrame">
 					<!-- Alternate content for non-supporting browsers -->
 			test!
 				<?php 

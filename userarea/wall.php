@@ -8,8 +8,9 @@
 						        $id = $row->id;
 						        $img = $row->img;
 						        $name = $row->name;
-						        $post = $row->post;
+						        $dirty = $row->post;
 						        $timestamp = date_create($row->timestamp);
+						        $post = htmlspecialchars_decode($dirty, ENT_NOQUOTES);
 				?>
 				<html>
 				<head>
